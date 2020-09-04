@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: chartreuse ;
+    font-size: 20px;
+}
+
+.flex-content{
+    height: 1000px;
+    background-color: white;
+    /*PERMITE QUE LOS ELEMENTOS HIJOS SEAN FLEXIBLES. */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5% 10% 5% 10%;
+    align-content: center;
+}
+
+.flex-content div{
+    margin: 5%;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+/*main menu img{
+    align-self: 5%;
+    
+}*/
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 90%;
+    color: white;
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 15%;
+    
+}
+
+.opt-menu a:hover{
+    background-color: cornsilk;
+    color: black;
+    border: 5px white solid;
+    border-radius: 30px;
+        
+}
+
+.opt-menu a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.container{
+    margin: 5% 10% 3% 8%;
+    
+}
+
+.container h1{   
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.main-charecters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* para que la imagen si queda sola se centre */
+}
+
+.charecter{
+    width: 25%;
+    margin: 3%;
+    border: 2px #e6e6e6 solid;
+    border-right: 4px  #e6e6e6 solid;
+    border-bottom: 4px  #e6e6e6 solid;
+    border-radius: center;
+    box-shadow: 5px black;
+    text-align: center;
+    
+}
+
+.charecter img{
+    width: 80%;
+    border-radius: 3%;
+}
+
+.charecter div{
+    text-align: justify;
+    padding: 3%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.charecter h2{
+    font-weight: bold;
+    margin-bottom: 3%;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer{
+    background-color:black ;
+    color: blanchedalmond;
+    height: 80px;
+    text-align: center;
+}
+
+.fa-hand-holding-heart{
+    color: red;
+}
+
+.descripcion{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    width: 70%;
+    margin: 3%;   
+    border-radius: center;
+    box-shadow: 5px black;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/*.descripcion img{      
+    width: 10%;
+    margin: 3%;
+    border: 1px #e6e6e6 solid;
+    border-right: 2px  #e6e6e6 solid;
+    border-bottom: 2px  #e6e6e6 solid;
+    border-radius: center;
+    box-shadow: 5px black;
+    text-align: center;
+}
+
+.descripcion p{   
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Indie Flower', cursive;   
+    align-items: center;
+     
+}  */
+
+.descripcion img{
+    width: 30%;
+}
+
+.main-favoritos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* para que la imagen si queda sola se centre */
+}
+
+.favoritos{
+    width: 40%;
+    margin: 3%;
+    border: 2px #e6e6e6 solid;
+    border-right: 4px  #e6e6e6 solid;
+    border-bottom: 4px  #e6e6e6 solid;
+    border-radius: center;
+    box-shadow: 5px black;
+    text-align: center;
+}
+
+.favoritos h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+.favoritos img{
+    width: 80%;
+    border-radius: 3%;
+}
+
+.favoritos p{
+    font-family: 'Lobster', cursive;
+}
+
+.estudios{
+    width: 40%;
+    margin: 3%;
+    border: 2px #e6e6e6 solid;
+    border-right: 4px  #e6e6e6 solid;
+    border-bottom: 4px  #e6e6e6 solid;
+    border-radius: right;
+    box-shadow: 5px black;
+    text-align: center;
+}
+
+.main-estudios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* para que la imagen si queda sola se centre */
+}
+
+.estudios h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+.estudios img{
+    width: 80%;
+    border-radius: 3%;
+}
+
+.estudios p{
+    font-family: 'Lobster', cursive;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-flex input{
+    height: 30px;
+    border: 2px rgb(2, 53, 2) solid;
+    border-radius: 10px;
+}
+
+.input-form{ 
+    margin-bottom: 2%;  
+      
+}
+
+.input-form div{
+    width: 30%;
+    float: left;  
+     
+}
+
+.input-form input{
+    width: 60%;
+   
+}
+
+.form-button{
+    text-align: center;    
+}
+
+.form-button button{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 15%;
+    height: 50px;
+}
+
+.sec-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.img-languaje{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2%;    
+}
+
+.img-languaje img{
+    width: 70%;
+    height: 250px;
+}
+
+.languaje-sec{
+    flex-wrap: wrap;
+}
+
+.img-languaje img:hover{
+    border: 5px pink;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #A4A4A4;
+    padding: 5%;
+}
+
+.option{
+    width: 40%;
+    text-align: left;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt h4{
+    text-align: center;
+}
+
+.opt input{
+    width: 10%;
+}
+.main-menu img {
+    justify-content: flex-end;
+}
