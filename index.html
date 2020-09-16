@@ -12,6 +12,7 @@
 
 </head>
 <body>
+    <div class="fondo"> 
    <!-- <h1 class="titulo">Mi primera Pagina</h1>
     <h2 class="subtitulo">Bienvenidos</h2>  -->
     <nav class="main-menu">
@@ -34,62 +35,68 @@
     <section class="main-charecters">
         <article class="charecter">
             <header>
-                <h2> Davin </h2>
+                <h2 id="cambio"> Davin </h2>
+                
             </header>
             <img src="./imagen/Davin.jpeg" alt="Davin">
             <div>
                 <p> <b> Genero:</b> Masculino </p>
-                <p> <strong> Especie: </strong> Humano </p>                
+                <p> <strong> Especie: </strong> Humano </p>   
+                <a onclick="cambiarnombre('cambio')">Cambiar nombre</a>             
 
             </div>
         </article>
 
         <article class="charecter">
             <header>
-                <h2> Beth</h2>
+                <h2 id="cambio1"> Beth</h2>
+                
             </header>
             <img src="./imagen/Beth.jpeg" alt="Beth">
             <div>
                 <p> <b> Genero:</b> Femenino </p>
                 <p> <b> Especie: </b> Humano </p>                
-
+                <a onclick="cambiarnombre('cambio1')">Cambiar nombre</a>
             </div>
         </article>
 
         
         <article class="charecter">
             <header>
-                <h2> Jerry</h2>
+                <h2 id="cambio2"> Jerry</h2>
+                
             </header>
             <img src="./imagen/Jerry.jpeg" alt="Jerry">
             <div>
                 <p> <b> Genero:</b> Masculino </p>
                 <p> <b> Especie: </b> Humano </p>                
-
+                <a onclick="cambiarnombre('cambio2')">Cambiar nombre</a>
             </div>
         </article>
 
         <article class="charecter">
             <header>
-                <h2> Summer</h2>
+                <h2 id="cambio3"> Summer</h2>
+                
             </header>
             <img src="./imagen/Summer.jpeg" alt="Summer">
             <div>
                 <p> <b> Genero:</b> Femenino </p>
                 <p> <b> Especie: </b> Humano </p>                
-
+                <a onclick="cambiarnombre('cambio3')">Cambiar nombre</a>
             </div>
         </article>
 
         <article class="charecter">
             <header>
-                <h2> BlimBlam</h2>
+                <h2 id="cambio4"> BlimBlam</h2>
+                
             </header>
             <img src="./imagen/BlimBlam.jpeg" alt="BlimBlam">
             <div>
-                <p> <b> Genero:</b> Masculino </p>
-                <p> <b> Especie: </b> Humano </p>                
-
+                <p> <b> Genero:</b>  Extraterrestre </p>
+                <p> <b> Especie: </b> Alienigena </p>                
+                <a onclick="cambiarnombre('cambio4')">Cambiar nombre</a>
             </div>
         </article>
     </section>
@@ -98,6 +105,8 @@
 <footer>
     <p> Hecho con <i class="fas fa-hand-holding-heart fa-spin"></i> por Angie Bermudez </p>
 </footer>    
-        
+      <script src="./scripts.js"></script>  
+</div>
+
 </body>
 </html>
